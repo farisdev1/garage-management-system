@@ -1,2 +1,8 @@
 /node_modules
 .DS_Store
+# Secrets and local files
+*.pem
+.env
+
+# macOS
+.DS_Store
