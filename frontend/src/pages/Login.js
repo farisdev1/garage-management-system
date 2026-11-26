@@ -51,7 +51,7 @@ function Login() {
         <label htmlFor="email">Email:</label><br />
         <input type="text" id="email" name="email" value={emailAddress} onChange={event => setEmailAddress(event.target.value)} /><br />
         <label htmlFor="password">Password:</label><br />
-        <input type="text" id="password" name="password" value={password} onChange={event => setPassword(event.target.value)} /><br /><br />
+        <input type="password" id="password" name="password" value={password} onChange={event => setPassword(event.target.value)} /><br /><br />
         <input type="submit" value="Submit" />
       </form>
     </div>
